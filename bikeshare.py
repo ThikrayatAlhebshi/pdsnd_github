@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 import sys
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -116,13 +115,13 @@ def time_stats(df):
 
     # display the most common month
 
-    print('Most common month = ' , df['month'].mode()[0])
+    print('{} is the most common month'.format(df['month'].mode()[0]))
 
     # display the most common day of week
-    print('Most common day of week = ', df['day'].mode()[0])
+    print('{} is the most common day of week'.format( df['day'].mode()[0]))
 
     # display the most common start hour
-    print('Most common start hour = ' , df['hour'].mode()[0])
+    print('{} is the most common start hour'.format(df['hour'].mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -169,11 +168,14 @@ def user_stats(df):
     start_time = time.time()
     # Display counts of user types
     print(df['User Type'].value_counts())
+    # check if gender column exist
     try:
         # Display counts of gender
         print(df['Gender'].value_counts())
     except KeyError:
         print('Gender data is not available!')
+        
+    # check if Birth Year column exist
     try:
         # Display earliest, most recent, and most common year of birth
         print('Earliest year of birth = ', df['Birth Year'].min())
