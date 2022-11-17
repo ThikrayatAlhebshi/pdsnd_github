@@ -12,6 +12,9 @@ The project is about uncovering bikeshare usage patterns from Motivate which is 
 ### Files used
 chicago.csv, new_york_city.csv, washington.csv, bikeshare.py
 
+### Softwares used
+pycharm, VSCode, Git Bash
+
 ### Credits
 Thanks to Udacity Git Commit Message Style Guide that helped me to write proper commits messages.
 https://udacity.github.io/git-styleguide/
