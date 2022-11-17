@@ -4,10 +4,10 @@
 17-11-2022
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+The project is about uncovering bikeshare usage patterns from Motivate which is a bike share system provider for many major cities in the United States.
 
 ### Files used
 Include the files used
