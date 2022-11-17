@@ -10,7 +10,7 @@ Explore US Bikeshare Data
 The project is about uncovering bikeshare usage patterns from Motivate which is a bike share system provider for many major cities in the United States.
 
 ### Files used
-chicago.csv, new_york_city.csv, washington.csv
+chicago.csv, new_york_city.csv, washington.csv, bikeshare.py
 
 ### Credits
 Thanks to Udacity Git Commit Message Style Guide that helped me to write proper commits messages.
